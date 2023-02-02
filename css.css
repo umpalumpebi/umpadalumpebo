@@ -1,0 +1,127 @@
+html{
+    background-color: rgb(51,51,51);
+}
+#my-todos{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#input-tags{
+    text-align: center;
+    left: 550px;
+    position: relative;
+    height: 63px;
+    width: 795px;
+    border: outset orange;
+    border-right: 50px;
+    border-width: 5px;
+    border-style:solid;
+    border-color:rgb(68,68,68);
+    border-bottom: 100%;
+    background-color: rgb(68,68,68);
+}
+#input-name-a{
+    color: white;
+    position: inherit;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    right: 100px;
+}
+#input-name{
+    position: inherit;
+    top: 28px;
+    right: 146px;
+    border: auto;
+    border-color: rgb(194,164,119);
+    border-radius: 9px;
+    height: 25px;
+}
+#input-description-a {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: inherit;
+    right: 125px;
+}
+#input-desc{
+    position: inherit;
+    top: 28px;
+    right: 210px;
+    border: auto;
+    border-color: rgb(194,164,119);
+    border-radius: 9px;
+    height: 25px;
+}
+#add-btn{
+    position: inherit;
+    top: 18px;
+    left: 85px;
+    background-color: orange;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    height: 24px;
+    width: 80px;
+    transition: all 0.3s ease-in-out;
+}
+#add-btn:hover {
+    transform: scale(1.1);
+}
+.createdDiv {
+    text-align: center;
+    left: 543px;
+    position: relative;
+    top: 25px;
+    height: 70px;
+    width: 808px;
+    border: outset orange;
+    border-right: 50px;
+    border-style:solid;
+    border-color:rgb(51,51,51);
+    background-color: rgb(68,68,68);
+}
+.createdName {
+    position: inherit;
+    right: 25%;
+    top: 8px;
+    font-size: 29px;
+    font-family: 'Istok Web', sans-serif;
+    color: orange;
+}
+.createdDescript {
+    position: inherit;
+    right: 35.7%;
+    color: white;
+    top: 31px;
+    font-family: 'Istok Web', sans-serif;
+}
+.complete-btn {
+    position: inherit;
+    left: 23.8%;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    border-color: rgb(36, 179, 124);
+    color: rgb(36, 179, 124);
+    height: 24px;
+    width: 80px;
+    transition: all 0.3s ease-in-out;
+}
+.complete-btn:hover {
+    transform: scale(1.1);
+}
+.delete-btn {
+    position: inherit;
+    left: 25%;
+    background-color: white;
+    border: 25px;
+    border-radius: 100px;
+    border-color: red;
+    color: red;
+    height: 24px;
+    width: 80px;
+    transition: all 0.3s ease-in-out;
+}
+.delete-btn:hover {
+    transform: scale(1.1);
+}
